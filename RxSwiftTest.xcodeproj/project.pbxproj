@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		217794C12390CA2500C48E5A /* TodoListTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217794C02390CA2500C48E5A /* TodoListTableView.swift */; };
+		21A229CD23978632004C833A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A229CC23978632004C833A /* DetailViewController.swift */; };
+		21A229CF2397878E004C833A /* DetailView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A229CE2397878E004C833A /* DetailView1.swift */; };
+		21A229D323978EE1004C833A /* DetailView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A229D223978EE1004C833A /* DetailView1.xib */; };
 		21AEB0F02396511600AA5E42 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB0EF2396511600AA5E42 /* TodoItem.swift */; };
 		21AEB0F2239655B900AA5E42 /* ViewControllerConfigere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB0F1239655B900AA5E42 /* ViewControllerConfigere.swift */; };
 		21AEB0F5239658F900AA5E42 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AEB0F3239658F900AA5E42 /* TodoCell.swift */; };
@@ -23,6 +26,9 @@
 
 /* Begin PBXFileReference section */
 		217794C02390CA2500C48E5A /* TodoListTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListTableView.swift; sourceTree = "<group>"; };
+		21A229CC23978632004C833A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		21A229CE2397878E004C833A /* DetailView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView1.swift; sourceTree = "<group>"; };
+		21A229D223978EE1004C833A /* DetailView1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView1.xib; sourceTree = "<group>"; };
 		21AEB0EF2396511600AA5E42 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		21AEB0F1239655B900AA5E42 /* ViewControllerConfigere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerConfigere.swift; sourceTree = "<group>"; };
 		21AEB0F3239658F900AA5E42 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
@@ -76,6 +82,9 @@
 				21FEA844238FB2420073406B /* AppDelegate.swift */,
 				21FEA846238FB2420073406B /* SceneDelegate.swift */,
 				21FEA848238FB2420073406B /* ViewController.swift */,
+				21A229CC23978632004C833A /* DetailViewController.swift */,
+				21A229CE2397878E004C833A /* DetailView1.swift */,
+				21A229D223978EE1004C833A /* DetailView1.xib */,
 				217794C02390CA2500C48E5A /* TodoListTableView.swift */,
 				21AEB0F1239655B900AA5E42 /* ViewControllerConfigere.swift */,
 				21AEB0EF2396511600AA5E42 /* TodoItem.swift */,
@@ -169,6 +178,7 @@
 				21FEA851238FB2450073406B /* LaunchScreen.storyboard in Resources */,
 				21FEA84E238FB2450073406B /* Assets.xcassets in Resources */,
 				21FEA84C238FB2420073406B /* Main.storyboard in Resources */,
+				21A229D323978EE1004C833A /* DetailView1.xib in Resources */,
 				21AEB0F6239658F900AA5E42 /* TodoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,12 +233,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AEB0F02396511600AA5E42 /* TodoItem.swift in Sources */,
+				21A229CF2397878E004C833A /* DetailView1.swift in Sources */,
 				21AEB0F2239655B900AA5E42 /* ViewControllerConfigere.swift in Sources */,
 				21AEB0F5239658F900AA5E42 /* TodoCell.swift in Sources */,
 				21FEA849238FB2420073406B /* ViewController.swift in Sources */,
 				21FEA845238FB2420073406B /* AppDelegate.swift in Sources */,
 				21FEA847238FB2420073406B /* SceneDelegate.swift in Sources */,
 				217794C12390CA2500C48E5A /* TodoListTableView.swift in Sources */,
+				21A229CD23978632004C833A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -65,8 +65,26 @@ class ViewController: UIViewController {
     
     @objc func addTodoItem() {
         
-        let newItem = TodoItem(name: "Love", isFinished: false)
-        todoItems.accept(todoItems.value + [newItem])
+//        let newItem = TodoItem(name: "Love", isFinished: false)
+//        todoItems.accept(todoItems.value + [newItem])
+        let preVC = DetailViewController()
+           _ = preVC.todo.subscribe(onNext: { [weak self] todo in
+                
+               var value = self?.todoItems.value
+               value?.append(todo)
+                self?.todoItems.accept(value!)
+                
+                
+            },
+            onDisposed: {
+                print("dispose finish")
+                                    
+            })
+        let nav = UINavigationController.init(rootViewController: preVC)
+        nav.modalPresentationStyle = .fullScreen
+        present(nav, animated: true, completion: {
+            
+        })
     }
     
     func configTableView() {
